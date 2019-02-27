@@ -1,0 +1,31 @@
+﻿  Window.cpp
+  Torch.cpp
+  Projectile.cpp
+  Player.cpp
+  PhysicsComponent.cpp
+  MusicListener.cpp
+  Menu.cpp
+  main.cpp
+d:\workspace\cpp\sfmlgame\sfmlgame\src\main.cpp(13): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+  Level.cpp
+  Key.cpp
+  InputComponent.cpp
+  HealthComponent.cpp
+  GraphicsComponent.cpp
+  Gem.cpp
+  GameObject.cpp
+  Game.cpp
+  Enemy.cpp
+d:\workspace\cpp\sfmlgame\sfmlgame\src\enemy.cpp(6): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  AudioComponent.cpp
+d:\workspace\cpp\sfmlgame\sfmlgame\src\audiocomponent.cpp(13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  AttackComponent.cpp
+  AssetManager.cpp
+  Generating Code...
+d:\workspace\cpp\sfmlgame\sfmlgame\src\assetmanager.cpp(44): warning C4715: 'AssetManager::GetTexture': not all control paths return a value
+d:\workspace\cpp\sfmlgame\sfmlgame\src\assetmanager.cpp(77): warning C4715: 'AssetManager::GetSoundBuffer': not all control paths return a value
+  Compiling...
+  AIComponent.cpp
+  Generating Code...
+  SFMLGame.vcxproj -> D:\Workspace\Cpp\SFMLGame\Debug\SFMLGame.exe
+  SFMLGame.vcxproj -> D:\Workspace\Cpp\SFMLGame\Debug\SFMLGame.pdb (Full PDB)

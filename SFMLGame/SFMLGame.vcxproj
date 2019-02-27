@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\armor\helmet\spr_helmet_idle_front.png" />
+    <Image Include="resources\armor\helmet\spr_helmet_idle_side.png" />
+    <Image Include="resources\armor\helmet\spr_helmet_walk_front.png" />
+    <Image Include="resources\armor\helmet\spr_helmet_walk_side.png" />
+    <Image Include="resources\armor\legs\spr_legs_idle_front.png" />
+    <Image Include="resources\armor\legs\spr_legs_idle_side.png" />
+    <Image Include="resources\armor\legs\spr_legs_walk_front.png" />
+    <Image Include="resources\armor\legs\spr_legs_walk_side.png" />
+    <Image Include="resources\armor\torso\spr_torso_idle_front.png" />
+    <Image Include="resources\armor\torso\spr_torso_idle_side.png" />
+    <Image Include="resources\armor\torso\spr_torso_walk_front.png" />
+    <Image Include="resources\armor\torso\spr_torso_walk_side.png" />
+    <Image Include="resources\enemies\goblin\spr_goblin_idle_down.png" />
+    <Image Include="resources\enemies\goblin\spr_goblin_idle_left.png" />
+    <Image Include="resources\enemies\goblin\spr_goblin_idle_right.png" />
+    <Image Include="resources\enemies\goblin\spr_goblin_idle_up.png" />
+    <Image Include="resources\enemies\goblin\spr_goblin_walk_down.png" />
+    <Image Include="resources\enemies\goblin\spr_goblin_walk_left.png" />
+    <Image Include="resources\enemies\goblin\spr_goblin_walk_right.png" />
+    <Image Include="resources\enemies\goblin\spr_goblin_walk_up.png" />
+    <Image Include="resources\enemies\skeleton\spr_skeleton_idle_down.png" />
+    <Image Include="resources\enemies\skeleton\spr_skeleton_idle_left.png" />
+    <Image Include="resources\enemies\skeleton\spr_skeleton_idle_right.png" />
+    <Image Include="resources\enemies\skeleton\spr_skeleton_idle_up.png" />
+    <Image Include="resources\enemies\skeleton\spr_skeleton_walk_down.png" />
+    <Image Include="resources\enemies\skeleton\spr_skeleton_walk_left.png" />
+    <Image Include="resources\enemies\skeleton\spr_skeleton_walk_right.png" />
+    <Image Include="resources\enemies\skeleton\spr_skeleton_walk_up.png" />
+    <Image Include="resources\enemies\slime\spr_slime_idle_down.png" />
+    <Image Include="resources\enemies\slime\spr_slime_idle_left.png" />
+    <Image Include="resources\enemies\slime\spr_slime_idle_right.png" />
+    <Image Include="resources\enemies\slime\spr_slime_idle_up.png" />
+    <Image Include="resources\enemies\slime\spr_slime_walk_down.png" />
+    <Image Include="resources\enemies\slime\spr_slime_walk_left.png" />
+    <Image Include="resources\enemies\slime\spr_slime_walk_right.png" />
+    <Image Include="resources\enemies\slime\spr_slime_walk_up.png" />
+    <Image Include="resources\loot\gem\spr_pickup_gem.png" />
+    <Image Include="resources\loot\gold\spr_pickup_gold_large.png" />
+    <Image Include="resources\loot\gold\spr_pickup_gold_medium.png" />
+    <Image Include="resources\loot\gold\spr_pickup_gold_small.png" />
+    <Image Include="resources\loot\heart\spr_pickup_heart.png" />
+    <Image Include="resources\loot\key\spr_pickup_key.png" />
+    <Image Include="resources\loot\potions\spr_potion_attack.png" />
+    <Image Include="resources\loot\potions\spr_potion_defense.png" />
+    <Image Include="resources\loot\potions\spr_potion_dexterity.png" />
+    <Image Include="resources\loot\potions\spr_potion_health.png" />
+    <Image Include="resources\loot\potions\spr_potion_mana.png" />
+    <Image Include="resources\loot\potions\spr_potion_stamina.png" />
+    <Image Include="resources\loot\potions\spr_potion_strength.png" />
+    <Image Include="resources\players\archer\spr_archer_idle_down.png" />
+    <Image Include="resources\players\archer\spr_archer_idle_left.png" />
+    <Image Include="resources\players\archer\spr_archer_idle_right.png" />
+    <Image Include="resources\players\archer\spr_archer_idle_up.png" />
+    <Image Include="resources\players\archer\spr_archer_walk_down.png" />
+    <Image Include="resources\players\archer\spr_archer_walk_left.png" />
+    <Image Include="resources\players\archer\spr_archer_walk_right.png" />
+    <Image Include="resources\players\archer\spr_archer_walk_up.png" />
+    <Image Include="resources\players\mage\spr_mage_idle_down.png" />
+    <Image Include="resources\players\mage\spr_mage_idle_left.png" />
+    <Image Include="resources\players\mage\spr_mage_idle_right.png" />
+    <Image Include="resources\players\mage\spr_mage_idle_up.png" />
+    <Image Include="resources\players\mage\spr_mage_walk_down.png" />
+    <Image Include="resources\players\mage\spr_mage_walk_left.png" />
+    <Image Include="resources\players\mage\spr_mage_walk_right.png" />
+    <Image Include="resources\players\mage\spr_mage_walk_up.png" />
+    <Image Include="resources\players\thief\spr_thief_idle_down.png" />
+    <Image Include="resources\players\thief\spr_thief_idle_left.png" />
+    <Image Include="resources\players\thief\spr_thief_idle_right.png" />
+    <Image Include="resources\players\thief\spr_thief_idle_up.png" />
+    <Image Include="resources\players\thief\spr_thief_walk_down.png" />
+    <Image Include="resources\players\thief\spr_thief_walk_left.png" />
+    <Image Include="resources\players\thief\spr_thief_walk_right.png" />
+    <Image Include="resources\players\thief\spr_thief_walk_up.png" />
+    <Image Include="resources\players\warrior\spr_warrior_idle_down.png" />
+    <Image Include="resources\players\warrior\spr_warrior_idle_left.png" />
+    <Image Include="resources\players\warrior\spr_warrior_idle_right.png" />
+    <Image Include="resources\players\warrior\spr_warrior_idle_up.png" />
+    <Image Include="resources\players\warrior\spr_warrior_walk_down.png" />
+    <Image Include="resources\players\warrior\spr_warrior_walk_left.png" />
+    <Image Include="resources\players\warrior\spr_warrior_walk_right.png" />
+    <Image Include="resources\players\warrior\spr_warrior_walk_up.png" />
+    <Image Include="resources\projectiles\spr_arrow.png" />
+    <Image Include="resources\projectiles\spr_dagger.png" />
+    <Image Include="resources\projectiles\spr_magic_ball.png" />
+    <Image Include="resources\projectiles\spr_sword.png" />
+    <Image Include="resources\spr_light_grid.png" />
+    <Image Include="resources\spr_path.png" />
+    <Image Include="resources\spr_torch.png" />
+    <Image Include="resources\tiles\spr_tile_door_locked.png" />
+    <Image Include="resources\tiles\spr_tile_door_unlocked.png" />
+    <Image Include="resources\tiles\spr_tile_floor.png" />
+    <Image Include="resources\tiles\spr_tile_floor_alt.png" />
+    <Image Include="resources\tiles\spr_tile_wall_bottom_end.png" />
+    <Image Include="resources\tiles\spr_tile_wall_bottom_left.png" />
+    <Image Include="resources\tiles\spr_tile_wall_bottom_right.png" />
+    <Image Include="resources\tiles\spr_tile_wall_bottom_t.png" />
+    <Image Include="resources\tiles\spr_tile_wall_entrance.png" />
+    <Image Include="resources\tiles\spr_tile_wall_intersection.png" />
+    <Image Include="resources\tiles\spr_tile_wall_side.png" />
+    <Image Include="resources\tiles\spr_tile_wall_side_left_end.png" />
+    <Image Include="resources\tiles\spr_tile_wall_side_left_t.png" />
+    <Image Include="resources\tiles\spr_tile_wall_side_right_end.png" />
+    <Image Include="resources\tiles\spr_tile_wall_side_right_t.png" />
+    <Image Include="resources\tiles\spr_tile_wall_single.png" />
+    <Image Include="resources\tiles\spr_tile_wall_top.png" />
+    <Image Include="resources\tiles\spr_tile_wall_top_end.png" />
+    <Image Include="resources\tiles\spr_tile_wall_top_left.png" />
+    <Image Include="resources\tiles\spr_tile_wall_top_right.png" />
+    <Image Include="resources\tiles\spr_tile_wall_top_t.png" />
+    <Image Include="resources\ui\spr_aim.png" />
+    <Image Include="resources\ui\spr_archer_ui.png" />
+    <Image Include="resources\ui\spr_attack_ui.png" />
+    <Image Include="resources\ui\spr_attack_ui_alt.png" />
+    <Image Include="resources\ui\spr_bar_outline.png" />
+    <Image Include="resources\ui\spr_coin_ui.png" />
+    <Image Include="resources\ui\spr_defense_ui.png" />
+    <Image Include="resources\ui\spr_defense_ui_alt.png" />
+    <Image Include="resources\ui\spr_dexterity_ui.png" />
+    <Image Include="resources\ui\spr_dexterity_ui_alt.png" />
+    <Image Include="resources\ui\spr_gem_ui.png" />
+    <Image Include="resources\ui\spr_health_bar.png" />
+    <Image Include="resources\ui\spr_heart.png" />
+    <Image Include="resources\ui\spr_key_ui.png" />
+    <Image Include="resources\ui\spr_key_ui_transparent.png" />
+    <Image Include="resources\ui\spr_mage_ui.png" />
+    <Image Include="resources\ui\spr_mana_bar.png" />
+    <Image Include="resources\ui\spr_spare_trait_ui.png" />
+    <Image Include="resources\ui\spr_spare_trait_ui_alt.png" />
+    <Image Include="resources\ui\spr_stamina_ui.png" />
+    <Image Include="resources\ui\spr_stamina_ui_alt.png" />
+    <Image Include="resources\ui\spr_strength_ui.png" />
+    <Image Include="resources\ui\spr_strength_ui_alt.png" />
+    <Image Include="resources\ui\spr_thief_ui.png" />
+    <Image Include="resources\ui\spr_warrior_ui.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="resources\music\msc_main_track_1.wav" />
+    <Media Include="resources\music\msc_main_track_2.wav" />
+    <Media Include="resources\music\msc_main_track_3.wav" />
+    <Media Include="resources\music\msc_main_track_4.wav" />
+    <Media Include="resources\sounds\snd_coin_pickup.wav" />
+    <Media Include="resources\sounds\snd_enemy_dead.wav" />
+    <Media Include="resources\sounds\snd_fire.wav" />
+    <Media Include="resources\sounds\snd_gem_pickup.wav" />
+    <Media Include="resources\sounds\snd_key_pickup.wav" />
+    <Media Include="resources\sounds\snd_player_hit.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="resources\fonts\04B_03__.TTF" />
+    <Font Include="resources\fonts\ADDSBP__.TTF" />
+    <Font Include="resources\fonts\arial.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="resources\data\level_data.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\AIComponent.hpp" />
+    <ClInclude Include="include\AssetManager.hpp" />
+    <ClInclude Include="include\AttackComponent.hpp" />
+    <ClInclude Include="include\AudioComponent.hpp" />
+    <ClInclude Include="include\Core.hpp" />
+    <ClInclude Include="include\Enemy.hpp" />
+    <ClInclude Include="include\Game.hpp" />
+    <ClInclude Include="include\GameObject.hpp" />
+    <ClInclude Include="include\Gem.hpp" />
+    <ClInclude Include="include\GraphicsComponent.hpp" />
+    <ClInclude Include="include\HealthComponent.hpp" />
+    <ClInclude Include="include\InputComponent.hpp" />
+    <ClInclude Include="include\Key.hpp" />
+    <ClInclude Include="include\Level.hpp" />
+    <ClInclude Include="include\Menu.hpp" />
+    <ClInclude Include="include\MusicListener.hpp" />
+    <ClInclude Include="include\PhysicsComponent.hpp" />
+    <ClInclude Include="include\Player.hpp" />
+    <ClInclude Include="include\Projectile.hpp" />
+    <ClInclude Include="include\Torch.hpp" />
+    <ClInclude Include="include\Util.hpp" />
+    <ClInclude Include="include\Window.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AIComponent.cpp" />
+    <ClCompile Include="src\AssetManager.cpp" />
+    <ClCompile Include="src\AttackComponent.cpp" />
+    <ClCompile Include="src\AudioComponent.cpp" />
+    <ClCompile Include="src\Enemy.cpp" />
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\GameObject.cpp" />
+    <ClCompile Include="src\Gem.cpp" />
+    <ClCompile Include="src\GraphicsComponent.cpp" />
+    <ClCompile Include="src\HealthComponent.cpp" />
+    <ClCompile Include="src\InputComponent.cpp" />
+    <ClCompile Include="src\Key.cpp" />
+    <ClCompile Include="src\Level.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Menu.cpp" />
+    <ClCompile Include="src\MusicListener.cpp" />
+    <ClCompile Include="src\PhysicsComponent.cpp" />
+    <ClCompile Include="src\Player.cpp" />
+    <ClCompile Include="src\Projectile.cpp" />
+    <ClCompile Include="src\Torch.cpp" />
+    <ClCompile Include="src\Window.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{847318CC-81C3-4D6C-A145-DD5829477E01}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SFMLGame</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)SFMLGame/include;$(SolutionDir)SGMLGame/resources;$(SolutionDir)SFML/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ShowIncludes>false</ShowIncludes>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)SFML/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;sfml-main-d.lib;sfml-audio-d.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)SFMLGame/include;$(SolutionDir)SGMLGame/resources;$(SolutionDir)SFML/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ShowIncludes>false</ShowIncludes>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)SFML/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;sfml-main-d.lib;sfml-audio-d.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)SFMLGame/include;$(SolutionDir)SGMLGame/resources;$(SolutionDir)SFML/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ShowIncludes>false</ShowIncludes>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)SFML/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;sfml-main-d.lib;sfml-audio-d.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)SFMLGame/include;$(SolutionDir)SGMLGame/resources;$(SolutionDir)SFML/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ShowIncludes>false</ShowIncludes>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)SFML/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;sfml-main-d.lib;sfml-audio-d.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
